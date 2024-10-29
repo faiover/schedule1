@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>БГУИР - Расписание занятий с 04/01/2017</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        h3 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .vertical-text {
+            writing-mode: vertical-rl; 
+            transform: rotate(180deg);
+            white-space: nowrap; 
+        }
+        .span-rows {
+            vertical-align: middle; /* Центрирование по вертикали */
+            rowspan: 3; /* Указываем количество строк для объединения */
+        }
+    </style>
+</head>
+<body>
+
+<h1>Расписание занятий с 04/01/2017</h1>
+<h3><i> Кафедра ПОИТ</i></h3>
+
+<table>
+    <tr>
+        <th class>День недели</th>
+        <th>Время</th>
+        <th>ПОИТ-01</th>
+        <th>ПОИТ-02</th>
+    </tr>
+    <tr>
+        <td class="vertical-text span-rows" rowspan="3">Понедельник</td>
+        <td>9:00 – 11:00</td>
+        <td>
+            <a href="kurs_lektsii.html#bazy_dannyh">Базы данных</a><br>
+            Иванов И.И.<br>
+            412
+        </td>
+        <td>
+            <a href="kurs_lektsii.html#kompyuternaya_grafika">Компьютерная графика</a><br>
+            Петров П.П.<br>
+            414
+        </td>
+    </tr>
+    <tr>
+        <td>11:10 – 13:10</td>
+        <td>
+            <a href="kurs_lektsii.html#kompyuternye_seti">Компьютерные сети</a><br>
+            Сидоров С.С.<br>
+            508
+        </td>
+        <td>
+            <a href="kurs_lektsii.html#informatika">Информатика</a><br>
+            Курочка С.П.<br>
+            506
+        </td>
+    </tr>
+    <tr>
+        <td>13:20 – 14:20</td>
+        <td>
+            <a href="kurs_lektsii.html#informatika">Информатика</a><br>
+            Курочка С.П.<br>
+            506
+        </td>
+        <td>
+            <a href="kurs_lektsii.html#kompyuternye_seti">Компьютерные сети</a><br>
+            Сидоров С.С.<br>
+            508
+        </td>
+    </tr>
+    <tr>
+        <td class="vertical-text span-rows" rowspan="3">Вторник</td>
+        <td>15:30 – 17:30</td>
+        <td>
+            <a href="kurs_lektsii.html#algoritmizatsiya">Алгоритмизация</a><br>
+            Дмитриев Д.Д.<br>
+            202
+        </td>
+        <td>
+            <a href="kurs_lektsii.html#proyektirovaniye">Проектирование</a><br>
+            Сергеенко С.С.<br>
+            412
+        </td>
+    </tr>
+    <tr>
+        <td>17:40 – 19:40</td>
+        <td>
+            <a href="kurs_lektsii.html#proyektirovaniye">Проектирование</a><br>
+            Сергеенко С.С.<br>
+            412
+        </td>
+        <td>
+            <a href="kurs_lektsii.html#algoritmizatsiya">Алгоритмизация</a><br>
+            Дмитриев Д.Д.<br>
+            202
+        </td>
+    </tr>
+    <tr>
+        <td>19:50 – 21:50</td>
+        <td>
+            <a href="kurs_lektsii.html#kompyuternaya_grafika">Компьютерная графика</a><br>
+            Петров П.П.<br>
+            414
+        </td>
+        <td>
+            <a href="kurs_lektsii.html#bazy_dannyh">Базы данных</a><br>
+            Иванов И.И.<br>
+            412
+        </td>
+    </tr>
+</table>
+
+<footer>
+    ©Все права защищены. 2016 год
+</footer>
+
+</body>
+</html>
